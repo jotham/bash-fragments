@@ -2,6 +2,8 @@
 
 # Script that requires one parameter to run
 
+BASE=$(cd $(dirname $0); pwd -P)
+
 error() {
    cat <<< "$@" 1>&2
    exit 1
