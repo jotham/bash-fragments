@@ -5,7 +5,7 @@
 ##    options
 ##
 ##       -e --example            Run example program
-##       -h                      This text
+##       -h --help               This text
 ##
 
 BASE=$(cd $(dirname $0); pwd -P)
