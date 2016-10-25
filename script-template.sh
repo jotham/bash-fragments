@@ -8,7 +8,7 @@
 ##       -h --help               This text
 ##
 
-BASE=$(cd "$(dirname "$0")" || exit; pwd -P)b
+BASE=$(cd "$(dirname "$0")" || exit; pwd -P)
 
 usage() {
    grep "^## " "${BASH_SOURCE[0]}" | cut -c 4-
